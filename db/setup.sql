@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS nc_news_test;
-DROP DATABASE IF EXISTS nc_news;
+DROP DATABASE IF EXISTS nc_messenger_testt;
+DROP DATABASE IF EXISTS nc_messenger;
 
-CREATE DATABASE nc_news_test;
-CREATE DATABASE nc_news;
+CREATE DATABASE nc_messenger_test;
+CREATE DATABASE nc_messenger;
 
 
 -- CREATE TABLE endpoints

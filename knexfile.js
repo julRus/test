@@ -1,4 +1,5 @@
 const { DB_URL } = process.env;
+const { client } = require("pg");
 const ENV = process.env.NODE_ENV || "development";
 
 const baseConfig = {
@@ -14,7 +15,7 @@ const baseConfig = {
 const customConfig = {
   development: {
     connection: {
-      database: "nc_news",
+      database: "nc_messenger",
       username: "julia",
       password: "myPassword"
       // user,
@@ -23,7 +24,7 @@ const customConfig = {
   },
   test: {
     connection: {
-      database: "nc_news_test",
+      database: "nc_messenger",
       username: "julia",
       password: "myPassword"
       // user,
